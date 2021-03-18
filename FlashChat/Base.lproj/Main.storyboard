@@ -63,6 +63,9 @@
                             <constraint firstItem="gEC-sS-zVD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wkn-6D-HsD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="7QH-YZ-ga6" id="o8q-oC-vSV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -119,6 +122,9 @@
                                         <state key="normal" title="Log In">
                                             <color key="titleColor" name="BrandLightBlue"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginPressed:" destination="IHv-54-lud" eventType="touchUpInside" id="TdE-FZ-7bV"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -148,6 +154,10 @@
                             <constraint firstItem="DzT-KV-gV4" firstAttribute="trailing" secondItem="nTj-7x-6rh" secondAttribute="trailing" id="y2P-h4-H34"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="dTw-9K-mAa" id="UOE-zl-9dz"/>
+                        <outlet property="passwordTextField" destination="Yv7-OB-Dka" id="h18-Lf-jzM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNT-dP-owY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -204,6 +214,9 @@
                                         <state key="normal" title="Register">
                                             <color key="titleColor" name="BrandBlue"/>
                                         </state>
+                                        <connections>
+                                            <action selector="registerPressed:" destination="pXj-Pn-MB7" eventType="touchUpInside" id="s2o-Gi-MPj"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -234,6 +247,10 @@
                             <constraint firstItem="lRX-6F-TUr" firstAttribute="leading" secondItem="DBu-eO-zAK" secondAttribute="leading" id="vWc-Fe-0ew"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="YhJ-Ww-G0a" id="34O-Pu-Mvq"/>
+                        <outlet property="passwordTextField" destination="x7u-3B-YY7" id="FIw-FQ-5IJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iis-wm-qJW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -282,6 +299,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" name="BrandLightPurple"/>
                                         <state key="normal" image="paperplane.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="sendPressed:" destination="z6h-ff-ebX" eventType="touchUpInside" id="naJ-IU-zwj"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -307,6 +327,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Gin-Nw-KcH" userLabel="Navigation Item"/>
+                    <connections>
+                        <outlet property="messageTextField" destination="88l-m4-GI2" id="oUO-Bb-bvi"/>
+                        <outlet property="tableView" destination="2jg-AV-MFo" id="G6G-a3-RBG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4t9-5Z-kDp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
