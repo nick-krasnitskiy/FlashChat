@@ -47,7 +47,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QH-YZ-ga6" userLabel="Title Label" customClass="CLTypingLabel" customModule="CLTypingLabel">
-                                <rect key="frame" x="207" y="418" width="0.0" height="60"/>
+                                <rect key="frame" x="53.5" y="418" width="307.5" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Cnl-Jd-foS"/>
                                 </constraints>
@@ -338,7 +338,13 @@
                             <constraint firstItem="yo0-xh-lNc" firstAttribute="bottom" secondItem="krc-HX-2lk" secondAttribute="bottom" id="wpl-FM-xq4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Gin-Nw-KcH" userLabel="Navigation Item"/>
+                    <navigationItem key="navigationItem" id="Gin-Nw-KcH" userLabel="Navigation Item">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="PvD-ya-Ea7">
+                            <connections>
+                                <action selector="logOutPressed:" destination="z6h-ff-ebX" id="Jfu-AP-UnF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="messageTextField" destination="88l-m4-GI2" id="oUO-Bb-bvi"/>
                         <outlet property="tableView" destination="2jg-AV-MFo" id="G6G-a3-RBG"/>
@@ -368,7 +374,9 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="7QH-YZ-ga6"/>
+        <designable name="7QH-YZ-ga6">
+            <size key="intrinsicContentSize" width="307.5" height="60"/>
+        </designable>
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="xWM-D5-DQj"/>
