@@ -105,7 +105,7 @@
                                     <constraint firstItem="Ha2-Ml-DFY" firstAttribute="leading" secondItem="VM3-lm-ts6" secondAttribute="leading" id="D3A-wo-h2f"/>
                                     <constraint firstAttribute="trailing" secondItem="Ha2-Ml-DFY" secondAttribute="trailing" id="I3M-LM-ldx"/>
                                     <constraint firstAttribute="bottom" secondItem="dTw-9K-mAa" secondAttribute="bottom" constant="82" id="KKQ-x4-tUS"/>
-                                    <constraint firstAttribute="trailing" secondItem="dTw-9K-mAa" secondAttribute="trailing" constant="48" id="LHc-GH-KSa"/>
+                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="dTw-9K-mAa" secondAttribute="trailing" constant="48" id="LHc-GH-KSa"/>
                                     <constraint firstItem="dTw-9K-mAa" firstAttribute="top" secondItem="VM3-lm-ts6" secondAttribute="top" constant="50" id="nJU-0v-GYI"/>
                                     <constraint firstAttribute="height" constant="177" id="p6a-gm-hQr"/>
                                     <constraint firstAttribute="bottom" secondItem="Ha2-Ml-DFY" secondAttribute="bottom" constant="20" id="zHN-NP-yuf"/>
@@ -121,7 +121,7 @@
                                         <rect key="frame" x="48" y="52" width="318" height="31.5"/>
                                         <color key="textColor" name="BrandBlue"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rg1-ha-kpK">
                                         <rect key="frame" x="0.0" y="118" width="414" height="48"/>
@@ -144,7 +144,7 @@
                                     <constraint firstItem="Rg1-ha-kpK" firstAttribute="leading" secondItem="DzT-KV-gV4" secondAttribute="leading" id="Ygz-Oe-Jad"/>
                                     <constraint firstAttribute="bottom" secondItem="Rg1-ha-kpK" secondAttribute="bottom" constant="11" id="e0t-TZ-pMb"/>
                                     <constraint firstItem="Yv7-OB-Dka" firstAttribute="leading" secondItem="DzT-KV-gV4" secondAttribute="leading" constant="48" id="gTq-hQ-afZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="Yv7-OB-Dka" secondAttribute="trailing" constant="48" id="mk7-t0-ddA"/>
+                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Yv7-OB-Dka" secondAttribute="trailing" constant="48" id="mk7-t0-ddA"/>
                                     <constraint firstAttribute="bottom" secondItem="cqF-jJ-VNq" secondAttribute="bottom" constant="20" id="uzD-Da-kLF"/>
                                     <constraint firstAttribute="height" constant="177" id="xdA-aV-88f"/>
                                 </constraints>
@@ -202,7 +202,7 @@
                                     <constraint firstAttribute="trailing" secondItem="Spe-3e-R7v" secondAttribute="trailing" id="beS-vK-nFs"/>
                                     <constraint firstAttribute="bottom" secondItem="YhJ-Ww-G0a" secondAttribute="bottom" constant="82" id="geT-hy-x1Q"/>
                                     <constraint firstItem="Spe-3e-R7v" firstAttribute="leading" secondItem="kDN-jr-vJm" secondAttribute="leading" id="rdc-yN-oCz"/>
-                                    <constraint firstAttribute="trailing" secondItem="YhJ-Ww-G0a" secondAttribute="trailing" constant="48" id="xJK-nr-2Kj"/>
+                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="YhJ-Ww-G0a" secondAttribute="trailing" constant="48" id="xJK-nr-2Kj"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRX-6F-TUr" userLabel="Password View">
@@ -215,7 +215,7 @@
                                         <rect key="frame" x="48" y="50" width="318" height="31.5"/>
                                         <color key="textColor" name="BrandBlue"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqC-ng-9ww">
                                         <rect key="frame" x="0.0" y="112.5" width="414" height="53.5"/>
@@ -229,7 +229,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="x7u-3B-YY7" secondAttribute="trailing" constant="48" id="NZ3-YP-hut"/>
+                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="x7u-3B-YY7" secondAttribute="trailing" constant="48" id="NZ3-YP-hut"/>
                                     <constraint firstAttribute="trailing" secondItem="CqC-ng-9ww" secondAttribute="trailing" id="OUF-Rl-DkQ"/>
                                     <constraint firstItem="CqC-ng-9ww" firstAttribute="top" secondItem="x7u-3B-YY7" secondAttribute="bottom" constant="31" id="Om2-XT-bKk"/>
                                     <constraint firstItem="x7u-3B-YY7" firstAttribute="leading" secondItem="lRX-6F-TUr" secondAttribute="leading" constant="48" id="YRX-Uk-1ji"/>
