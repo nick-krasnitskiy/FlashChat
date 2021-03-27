@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D49B573D260B921900EAD586 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B573C260B921900EAD586 /* Constants.swift */; };
 		D4E9EFA32601C69F005B6749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9EFA22601C69F005B6749 /* AppDelegate.swift */; };
 		D4E9EFA52601C69F005B6749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9EFA42601C69F005B6749 /* SceneDelegate.swift */; };
 		D4E9EFA72601C69F005B6749 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9EFA62601C69F005B6749 /* WelcomeViewController.swift */; };
@@ -24,6 +25,7 @@
 		96C8211E833A647C56236A50 /* Pods-FlashChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashChat.debug.xcconfig"; path = "Target Support Files/Pods-FlashChat/Pods-FlashChat.debug.xcconfig"; sourceTree = "<group>"; };
 		A054C4E11A2FFA2B61984CE9 /* Pods_FlashChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0D41EB66962F98D5A7576E /* Pods-FlashChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashChat.release.xcconfig"; path = "Target Support Files/Pods-FlashChat/Pods-FlashChat.release.xcconfig"; sourceTree = "<group>"; };
+		D49B573C260B921900EAD586 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D4E9EF9F2601C69F005B6749 /* FlashChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E9EFA22601C69F005B6749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4E9EFA42601C69F005B6749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				D4E9EFAD2601C6A3005B6749 /* LaunchScreen.storyboard */,
 				D4E9EFB02601C6A3005B6749 /* Info.plist */,
 				D4E9EFCF2608CC2E005B6749 /* GoogleService-Info.plist */,
+				D49B573C260B921900EAD586 /* Constants.swift */,
 			);
 			path = FlashChat;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				D4E9EFA32601C69F005B6749 /* AppDelegate.swift in Sources */,
 				D4E9EFA52601C69F005B6749 /* SceneDelegate.swift in Sources */,
 				D4E9EFBE26031C89005B6749 /* LoginViewController.swift in Sources */,
+				D49B573D260B921900EAD586 /* Constants.swift in Sources */,
 				D4E9EFC126032393005B6749 /* ChatViewController.swift in Sources */,
 				D4E9EFBB2601CCF9005B6749 /* RegisterViewController.swift in Sources */,
 			);
